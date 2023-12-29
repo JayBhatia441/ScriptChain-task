@@ -1,8 +1,8 @@
 # ScriptChain-task
 
-EMAIL SYSTEM SENDER
+**EMAIL SYSTEM SENDER**
 
-Tech Stack - Angular, Node.js, MySQL, Javascript, TypeScript, REST APIs
+**Tech Stack - Angular, Node.js, MySQL, Javascript, TypeScript, REST APIs**
 
 This application is an email system sender designed for sending confirmation emails to users. The process involves users entering their name and email in a form. Upon submission, the user receives a confirmation email from the system. The user information, including name and email, is stored in a MySQL database.
 
