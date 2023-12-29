@@ -23,7 +23,7 @@ The backend is developed using Node.js and connects to a MySQL database to store
 
 - **MySQL Database Connection:** Connects to a local MySQL database
 
-- **Email Configuration:** Utilizes the Nodemailer library to set up email configuration using the Mailgun service for sending confirmation emails.
+- **Email Configuration:** Utilizes the Nodemailer library to set up email configuration using the Mailgun service for sending confirmation emails. I have sent emails to some random temporary email adresses which i geberated using TempMail
 
 - **Form Submission Endpoint (`/submit`):** Handles POST requests for form submissions. Checks if the provided email already exists in the database. If not, it inserts the username and email into the database, sends a confirmation email, and responds with a success message. If the email already exists, it returns an error.
 
@@ -32,3 +32,7 @@ The backend is developed using Node.js and connects to a MySQL database to store
 **Project Video**
 
 You can finde the video here - https://youtu.be/e3CCuFz47x0
+
+External Resources I used for temorary and inbox and email adresses
+1. Mailgun - https://www.mailgun.com/ - to send emails from a temporary domain
+2. TempMail - https://temp-mail.org/en/ - sending out emails to temporary user emailIds
