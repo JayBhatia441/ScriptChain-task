@@ -14,7 +14,11 @@ To ensure data integrity, the system prevents duplication by checking and ensuri
 
 ### Frontend
 
-The frontend utilizes Angular and TypeScript to create a simple and elegant form with two fields: username and email. The form is styled using basic CSS. User interactions with the form are managed through Angular Forms.
+The frontend of the system includes a form component called `UserFormComponent`, developed using Angular Forms. This component interacts with the backend through a service named `DataService`. The styling of the form is kept simple and elegant, utilizing basic CSS.
+
+The form comprises two fields: 
+1. **Username**
+2. **Email**
 
 ### Backend
 
