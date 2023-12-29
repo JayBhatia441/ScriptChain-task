@@ -28,3 +28,7 @@ The backend is developed using Node.js and connects to a MySQL database to store
 - **Form Submission Endpoint (`/submit`):** Handles POST requests for form submissions. Checks if the provided email already exists in the database. If not, it inserts the username and email into the database, sends a confirmation email, and responds with a success message. If the email already exists, it returns an error.
 
 
+
+**Project Video**
+
+<iframe width="560" height="315" src="https://youtu.be/e3CCuFz47x0" frameborder="0" allowfullscreen></iframe>
