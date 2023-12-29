@@ -31,4 +31,4 @@ The backend is developed using Node.js and connects to a MySQL database to store
 
 **Project Video**
 
-<iframe width="560" height="315" src="https://youtu.be/e3CCuFz47x0" frameborder="0" allowfullscreen></iframe>
+You can finde the video here - https://youtu.be/e3CCuFz47x0
